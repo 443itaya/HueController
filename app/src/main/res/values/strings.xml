@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">HueController</string>
+
+    <string-array name="list">
+        <item>KC104 壁面照明</item>
+        <item>KC111 壁面照明</item>
+        <item>KC111 フロアーアップライト</item>
+    </string-array>
+
+</resources>
