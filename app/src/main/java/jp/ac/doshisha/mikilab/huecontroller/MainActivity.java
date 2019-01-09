@@ -39,7 +39,7 @@ public class MainActivity extends AppCompatActivity {
                 //KC104
                 if(room_index == 0) url = "http://172.20.11.99/api/fKod5kAVYn2n0kXjKZaQ-XiP-CD5RvJQlsPdHD9a/groups/1/action";
                 //KC111
-                else if(room_index == 1) url = "http://172.20.11.100/api/z2YrJsBIMyPZlHWprsFmIjlfI2WaR9kxTHA6XVaI/groups/1/action";
+                else if(room_index == 1) url = "http://172.20.11.101/api/Gxo6SRpnFyNaP2gysWiJluPoHDk3lMuMj2pX0qRz/groups/0/action";
                 //KC111 ぼんぼり
                 else url = "http://172.20.11.115/api/iYej4EW4N87WlWu-lhOixd4Yls6i7NjA6X4kcDvw/groups/1/action";
             }
