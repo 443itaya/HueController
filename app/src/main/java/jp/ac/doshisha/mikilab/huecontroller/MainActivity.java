@@ -57,18 +57,18 @@ public class MainActivity extends AppCompatActivity {
             @Override
             public void onCheckedChanged(RadioGroup group, int checkedId) {
                 // TODO Auto-generated method stub
-                color_index = checkedId - R.id.radioGroup;
+                color_index = Math.abs(checkedId - R.id.radioGroup);
                 RadioButton radio = (RadioButton)findViewById(checkedId);
                 if(startflag == 1) {
                     sat = "121";
-                    if(color_index == 2)    hue = "15324";  //　標準
-                    else if(color_index == -2131492982)   hue = "0";  //　赤
-                    else if(color_index == 3)   hue = "60000";   //　ピンク
-                    else if(color_index == 4)   hue = "7774";   //　オレンジ
-                    else if(color_index == 5)   hue = "24000";   //　黄緑
-                    else if(color_index == 6)   hue = "46014";   //　青
-                    else if(color_index == 7)   hue = "50000";   //　紫
-                    else if(color_index == 8)   sat = "0";   //　白
+                    if(color_index == 7)    hue = "15324";  //　標準
+                    else if(color_index == 2131296381)   hue = "0";  //　赤
+                    else if(color_index == 6)   hue = "60000";   //　ピンク
+                    else if(color_index == 5)   hue = "7774";   //　オレンジ
+                    else if(color_index == 4)   hue = "24000";   //　黄緑
+                    else if(color_index == 3)   hue = "46014";   //　青
+                    else if(color_index == 2)   hue = "50000";   //　紫
+                    else if(color_index == 1)   sat = "0";   //　白
                     json = "{\"on\":true,\"hue\":" + hue + ",\"bri\":254,\"sat\":" + sat + "}";
                     postTest();
                 }
